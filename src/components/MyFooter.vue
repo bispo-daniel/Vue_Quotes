@@ -9,10 +9,11 @@
         width: 80%;
         height: 80px;
         
-        background-color: #043927;
-
+        background-color: #00004066;
+        
         border-radius:  5px 5px 0 0;
-
+        border: 1px solid #ffffff66;
+        border-bottom: none;
         display: flex;
         align-items: center;
         justify-content: center;

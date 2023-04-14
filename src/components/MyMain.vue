@@ -38,7 +38,9 @@ main {
     min-width: 250px;
     min-height: 350px;
 
-    border: 1px solid #043927;
+    background-color: #00004066;
+
+    border: 1px solid #ffffff66;
     border-radius: 5px;
 
     display: flex;
@@ -52,23 +54,27 @@ main > p {
     font-size: 25px;
 }
 
+p:hover {
+    color: transparent;
+    transition: 0.5s;
+}
+
 main > button {
     width: 50%;
     max-width: 200px;
     height: 32px;
-    border: 1px solid purple;
+    border: 1px solid #ffffff66;
+    color: #ffffff66;
     border-radius: 5px;
     background-color: transparent;
-    color: #043927;
 }
 
 main > button:hover {
     transition: 0.5s;
-    background-color: purple;
+    background-color: #000040;
 }
 
 main > #result > p {
-    color: wheat;
     padding: 15px;
 }
 
